@@ -11,6 +11,7 @@ my case i wanted the model to predict the yearly time usage of instagram by user
 5. make sure you have a main project directory  builds like this ----> [[ venv (dir),templates(dir), main.py(file), model name(file)]]
 
 6. install nginx (and its dependancies) and modify the default configuration file they supply with nginx installation, to be able to 
-run your application on nginx, then restart nginx.
+run your application on nginx, then restart nginx.###notice! I changed the default configuration file according to the location i placed the 
+project dir (in home dir) 
 
 7. In the last part you need to RUN the python script (main.py) first, then access the ip you filled in the configuration file on a web browswer.
