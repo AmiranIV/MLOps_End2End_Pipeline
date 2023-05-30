@@ -3,3 +3,9 @@ Skicit == 1.2
 flask == 2.3.2 
 pandas == 2.0.2  
 joblib == 1.3.0 
+
+
+Ubuntu VM (not mendatory i ran the script on a vm) 
+AWS account with an ec2 (ubuntu) --------(if want to deploy in aws)
+nginx 
+Python3
