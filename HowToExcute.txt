@@ -1,0 +1,16 @@
+1. Step one create the ,Linear regression model.
+Take a data set and analyze, and clean the data and create a model that fits your requirements and preforms well.
+
+2. save the model to your local using joblib.
+
+3. build an application using flask framework , and implement the model as you wish,
+my case i wanted the model to predict the yearly time usage of instagram by users.
+
+4. create a templates folder containing html files that connects with your application functionality. 
+
+5. make sure you have a main project directory  builds like this ----> [[ venv (dir),templates(dir), main.py(file), model name(file)]]
+
+6. install nginx (and its dependancies) and modify the default configuration file they supply with nginx installation, to be able to 
+run your application on nginx, then restart nginx.
+
+7. In the last part you need to RUN the python script (main.py) first, then access the ip you filled in the configuration file on a web browswer.
