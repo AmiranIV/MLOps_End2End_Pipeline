@@ -4,6 +4,12 @@ flask == 2.3.2
 pandas == 2.0.2  
 joblib == 1.3.0 
 
+If working with aws DynamoDB
+boto3 == * Only if working with DynamoDB in newer version of the project.
+AWS installation == https://aws.amazon.com/sdk-for-python/
+
+
+
 Structure >>> VPC(EC2 Ubuntu) >>> HomeDir(PROJECT) >>> PROJECT(venv,main.py,model,templates)
 Ubuntu VM (not mendatory i ran the script on a vm) 
 AWS account with an ec2 (ubuntu) --------(if want to deploy in aws)
