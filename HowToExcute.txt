@@ -15,3 +15,9 @@ run your application on nginx, then restart nginx.###notice! I changed the defau
 project dir (in home dir) 
 
 7. In the last part you need to RUN the python script (main.py) first, then access the ip you filled in the configuration file on a web browswer.
+
+#IMPORTANT IF WORKING WITH NGINX!
+-Don't forget to update the ip in the nginx conf file.
+
+#IMPORTANT IF WORKING WITH DYNAMODB !!!!! 
+You need to generate the Primary keys to be able to upload the data to AWS, attaching 2 tutorial links:
